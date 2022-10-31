@@ -1,17 +1,16 @@
 using RimWorld;
 using Verse;
 
-namespace LingGame
+namespace LingGame;
+
+[DefOf]
+public static class ZeroTechFactionDefOf
 {
-    [DefOf]
-    public static class ZeroTechFactionDefOf
-    {
-        public static FactionDef LingMoonFaction;
+    public static FactionDef LingMoonFaction;
 
-        public static HediffDef GoJuiceHigh;
+    public static HediffDef GoJuiceHigh;
 
-        public static HediffDef LuciferiumHigh;
+    public static HediffDef LuciferiumHigh;
 
-        public static HediffDef WakeUpHigh;
-    }
+    public static HediffDef WakeUpHigh;
 }

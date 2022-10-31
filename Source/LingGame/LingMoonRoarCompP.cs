@@ -1,12 +1,11 @@
 using Verse;
 
-namespace LingGame
+namespace LingGame;
+
+public class LingMoonRoarCompP : CompProperties
 {
-    public class LingMoonRoarCompP : CompProperties
+    public LingMoonRoarCompP()
     {
-        public LingMoonRoarCompP()
-        {
-            compClass = typeof(LingMoonRoarComp);
-        }
+        compClass = typeof(LingMoonRoarComp);
     }
 }
