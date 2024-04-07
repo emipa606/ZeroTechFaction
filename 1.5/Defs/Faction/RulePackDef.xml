@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>LingLuoNamerPersonNan</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=10)-&gt;克隆体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=10)-&gt;复制体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=10)-&gt;再生体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=5)-&gt;测试体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=4)-&gt;突变体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=4)-&gt;劣化体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=2)-&gt;优化体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name-&gt;原生体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=0.1)-&gt;夏 '乔恩' 特雷西亚</li>
+        <li>r_name(p=0.1)-&gt;Qi 'BaiDaofu' Yandao</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>LingQName-&gt;Names/LingQName</li>
+        <li>LingQName-&gt;Names/LingQNameNan</li>
+      </rulesFiles>
+      <rulesRaw>
+        <li Class="Rule_Number">
+          <keyword>LngNumber</keyword>
+          <range>
+            <min>001</min>
+            <max>999</max>
+          </range>
+          <selectionWeight>3</selectionWeight>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>LingLuoNamerPersonNv</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=10)-&gt;克隆体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=10)-&gt;复制体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=10)-&gt;再生体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=5)-&gt;测试体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=4)-&gt;突变体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=4)-&gt;劣化体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=2)-&gt;优化体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name-&gt;原生体 '[LingQName]' [LngNumber]号</li>
+        <li>r_name(p=0.1)-&gt;艾尔莎 '希' 爱德华</li>
+        <li>r_name(p=0.1)-&gt;特蕾西亚 '范' 阿斯特药</li>
+        <li>r_name(p=0.1)-&gt;瓦莉拉 '瓦莉拉' 萨古纳尔</li>
+        <li>r_name(p=0.1)-&gt;Alice 'LingLuo' Benjamin</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>LingQName-&gt;Names/LingQName</li>
+        <li>LingQName-&gt;Names/LingQNameNv</li>
+      </rulesFiles>
+      <rulesRaw>
+        <li Class="Rule_Number">
+          <keyword>LngNumber</keyword>
+          <range>
+            <min>001</min>
+            <max>999</max>
+          </range>
+          <selectionWeight>3</selectionWeight>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>LingLuoNamerFactionMoon</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=1)-&gt;[thissname]联合</li>
+        <li>r_name(p=1)-&gt;[thissname]佣兵团</li>
+        <li>r_name(p=1)-&gt;[thissname]兵团</li>
+        <li>r_name(p=1)-&gt;[thissname]军团</li>
+        <li>r_name(p=1)-&gt;[thissname]联盟</li>
+        <li>thissname-&gt;重组[moon]</li>
+        <li>thissname-&gt;新[moon]</li>
+        <li>thissname-&gt;第三[moon]</li>
+        <li>thissname-&gt;新生[moon]</li>
+        <li>thissname-&gt;[moon]</li>
+        <li>thissname-&gt;再建[moon]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>moon-&gt;Names/moon</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -26,7 +26,7 @@ public class TacticsBullet : Projectile
         beamTexture = TacticsBulletTex.laser;
     }
 
-    public override void Draw()
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
         if (SingleCast)
         {
@@ -85,7 +85,7 @@ public class TacticsBullet : Projectile
 
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
-        var unused = Map;
+        _ = Map;
         base.Impact(hitThing, blockedByShield);
         var battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
             equipmentDef, def, targetCoverDef);
@@ -103,7 +103,7 @@ public class TacticsBullet : Projectile
         var thingDef = equipmentDef;
         var dinfo = new DamageInfo(damageDef, num, armorPenetration, y, thing, null, thingDef,
             DamageInfo.SourceCategory.ThingOrUnknown, intendedTarget.Thing);
-        var unused1 = hitThing as Pawn;
+        _ = hitThing as Pawn;
         hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
     }
 }

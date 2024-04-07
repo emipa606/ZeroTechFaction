@@ -27,11 +27,6 @@ public class LingMoonRoarComp : ThingComp
 
     public override string TransformLabel(string label)
     {
-        if (ShootAmount > 0f)
-        {
-            return $"{base.TransformLabel(label)}(ToHot{ShootAmount}/50)";
-        }
-
-        return base.TransformLabel(label);
+        return ShootAmount > 0f ? $"{base.TransformLabel(label)}(ToHot{ShootAmount}/50)" : base.TransformLabel(label);
     }
 }

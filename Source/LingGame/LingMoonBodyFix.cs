@@ -5,6 +5,9 @@ namespace LingGame;
 
 public class LingMoonBodyFix : Apparel
 {
+    private static readonly TraitDef beauty = TraitDef.Named("Beauty");
+    private static readonly TraitDef psychicSensitivity = TraitDef.Named("PsychicSensitivity");
+
     public override void Tick()
     {
         base.Tick();
@@ -39,7 +42,7 @@ public class LingMoonBodyFix : Apparel
             Wearer.story.bodyType = BodyTypeDefOf.Thin;
         }
 
-        Wearer.Drawer.renderer.graphics.ResolveAllGraphics();
+        Wearer.Drawer.renderer.SetAllGraphicsDirty();
     }
 
     private void GetSkills()
@@ -78,33 +81,33 @@ public class LingMoonBodyFix : Apparel
             Wearer.story.traits.allTraits.Remove(Wearer.story.traits.allTraits[1]);
         }
 
-        if (!Wearer.story.traits.HasTrait(TraitDefOf.Beauty))
+        if (!Wearer.story.traits.HasTrait(beauty))
         {
             if (Rand.Chance(0.5f))
             {
-                var trait = new Trait(TraitDefOf.Beauty, 1);
+                var trait = new Trait(beauty, 1);
                 Wearer.story.traits.GainTrait(trait);
             }
             else if (Rand.Chance(0.5f))
             {
-                var trait2 = new Trait(TraitDefOf.Beauty, 2);
+                var trait2 = new Trait(beauty, 2);
                 Wearer.story.traits.GainTrait(trait2);
             }
         }
 
-        if (Wearer.story.traits.HasTrait(TraitDefOf.PsychicSensitivity))
+        if (Wearer.story.traits.HasTrait(psychicSensitivity))
         {
             return;
         }
 
         if (Rand.Chance(0.5f))
         {
-            var trait3 = new Trait(TraitDefOf.PsychicSensitivity, 1);
+            var trait3 = new Trait(psychicSensitivity, 1);
             Wearer.story.traits.GainTrait(trait3);
         }
         else if (Rand.Chance(0.5f))
         {
-            var trait4 = new Trait(TraitDefOf.PsychicSensitivity, 2);
+            var trait4 = new Trait(psychicSensitivity, 2);
             Wearer.story.traits.GainTrait(trait4);
         }
     }

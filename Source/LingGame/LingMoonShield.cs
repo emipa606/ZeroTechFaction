@@ -9,6 +9,7 @@ namespace LingGame;
 [StaticConstructorOnStartup]
 public class LingMoonShield : Apparel
 {
+    private static readonly SoundDef energyShield_Broken = SoundDef.Named("EnergyShield_Broken");
     private Vector3 impactAngleVect;
 
     private int lastAbsorbDamageTick = -1;
@@ -195,7 +196,7 @@ public class LingMoonShield : Apparel
     {
         if (Wearer.Map != null)
         {
-            SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
+            energyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
             FleckMaker.Static(Wearer.TrueCenter(), Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
             for (var i = 0; i < 6; i++)
             {
