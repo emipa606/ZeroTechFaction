@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="ZeroTechFaction_UpdateFeatureBase">
+		<modNameReadable>ZeroTechFaction</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2609651459</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="ZeroTechFaction_UpdateFeatureBase">
+		<defName>ZeroTechFaction_1_5_0</defName>
+		<assemblyVersion>1.5.0</assemblyVersion>
+		<content>This mod will not be further updated.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

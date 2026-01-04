@@ -19,7 +19,7 @@ public class LingMoonShield : Apparel
 
     private int Sleeptick = -1;
 
-    private int StartingTicksToReset => 600;
+    private static int StartingTicksToReset => 600;
 
     public float MaxPower
     {
@@ -35,7 +35,7 @@ public class LingMoonShield : Apparel
         }
     }
 
-    public float RePowerRate
+    private float RePowerRate
     {
         get
         {
@@ -51,7 +51,7 @@ public class LingMoonShield : Apparel
 
     public float Power => power;
 
-    public ShieldState shieldState => Sleeptick > 0 ? ShieldState.Resetting : ShieldState.Active;
+    private ShieldState shieldState => Sleeptick > 0 ? ShieldState.Resetting : ShieldState.Active;
 
     private bool ShouldDisplay
     {
@@ -101,7 +101,7 @@ public class LingMoonShield : Apparel
         }
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Wearer == null)
@@ -192,7 +192,7 @@ public class LingMoonShield : Apparel
         lastAbsorbDamageTick = Find.TickManager.TicksGame;
     }
 
-    public void Break()
+    private void Break()
     {
         if (Wearer.Map != null)
         {
@@ -210,7 +210,7 @@ public class LingMoonShield : Apparel
         Sleeptick = StartingTicksToReset;
     }
 
-    public void Reset()
+    private void Reset()
     {
         if (Wearer.Spawned)
         {

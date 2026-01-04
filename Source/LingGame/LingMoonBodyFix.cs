@@ -8,7 +8,7 @@ public class LingMoonBodyFix : Apparel
     private static readonly TraitDef beauty = TraitDef.Named("Beauty");
     private static readonly TraitDef psychicSensitivity = TraitDef.Named("PsychicSensitivity");
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Wearer == null)

@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>5c2c819b-b263-4401-a664-80a82049fe47</ID>
   <ModName>ZeroTech-Faction (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.6.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+

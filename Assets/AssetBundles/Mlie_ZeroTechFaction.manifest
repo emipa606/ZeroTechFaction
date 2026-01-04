@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 4178677834
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 592696b76216e9a48321abc29064b5b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 592696b76216e9a48321abc29064b5b6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_LingTurret_Toxic.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_Rocket.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_RifleSpi.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonApparel/LingMoonApparel_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Female_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Male_east.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Female_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/aa.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponMelee/VampireSicklea.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonThing/Apparel_Ling_Moon_Glove.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Small.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Hulk_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Fat_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Male_west.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_LingTurret_Poison.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Ling_Moon_Roar.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/ACCEE.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/World/WorldObjects/Expanding/DMoon.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Fat_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Fat_east.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Thin_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Male_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonThing/Apparel_Ling_Moon_Necklace.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Hulk_east.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Female_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonApparel/LingMoonApparel.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/RimWorldLogo.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_LingTurret_Crystal.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Zero_Ice.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Fat_west.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Female_east.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Ling_Base_Rifle_Sharp.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Zero_Fire.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Hulk_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Hulk_west.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Other/ShieldBubbleBase.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Hulk_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Thin_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonThing/MoonShield.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Ling/Projectile/RainbawLuncer.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_PistolBlunt.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Male_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Thin_west.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/da.png
+- "Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponMelee/\u65B0\u5EFA\u753B\u5E032.png"
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Zero_Toxic.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonApparel/LingMoonApparel_east.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Ling_Moon_PistolBlunt.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Projectile/Bullet_Ling_Moon_RifleSharp.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonApparel/LingMoonApparel_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Other/ShieldBubble (2).png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_RifleSharp.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Thin_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Blank.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/aaaaaaa.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponMelee/DefenterSworldaa.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Female_west.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/aaaa.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/LingMoonThing/Apparel_Ling_Moon_Boots.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Female_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Other/ShieldBubble2.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Hulk_south.png
+- "Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponMelee/\u65B0\u5EFA\u753B\u5E031.png"
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponMelee/DefenterSworld.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Other/ShieldBubbleaa.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Other/90sheji_linggan_13124522.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Thin_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponMelee/VampireSickle.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Male_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Male_south.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Thin_east.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_LightShirt/Apparel_Ling_Moon_LightShirt_Fat_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Pawn/Humanlike/Apparel/Apparel_Ling_Moon_Duster/Apparel_Ling_Moon_Duster_Fat_north.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_BlueCrystal.png
+- Assets/Data/Mlie.ZeroTechFaction/Textures/Other/ShieldBubble.png
+Dependencies: []
